@@ -1,3 +1,10 @@
+body {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
 .styled-button {
   background-color: #4CAF50;
   border: none;
@@ -11,4 +18,24 @@
   border-radius: 12px
   box-shadow: 0 4px #999;
 }
+
+.styled-button:hover {
+  background-color: #45a049;
+  box-shadow: 0 2px;
+  transform: translateY(4px);
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-itmems: center;
+  height:100vh
+  flex-direction: colum;
+}
+hi {
+  color: white;
+  margin-bottom: 20px;
+}
+  
   
